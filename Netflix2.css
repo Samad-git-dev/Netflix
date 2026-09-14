@@ -1,0 +1,329 @@
+* {
+    color: white;
+}
+
+.welcome {
+    background-image: url(/background2.jpg);
+    background-repeat: no-repeat;
+    height:90%;
+    width:100%;
+    color: white;
+    background-color: none;
+    
+}
+
+
+
+.logo {
+    width: 10rem;
+    height: 5rem;
+}
+
+.div1 {
+    display: flex;
+    position:relative;
+}
+
+.sign-in {
+    color: white;
+    background-color: red;
+    border-radius: 7px;
+    border: none;
+    padding: 8px;
+    height: 50px;
+    position: absolute;
+    right:10rem;
+    text-decoration: none;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    background: transparent !important;
+    padding-left: 20rem;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.biggy {
+    font-size: 4rem;
+    font-weight: bold;
+    flex-wrap: wrap;
+    padding-right: 10rem;
+}
+
+.div2a {
+    font-weight: 700;
+    font-size: 1rem;
+    padding-right: 25rem;
+    padding-left: 10rem;
+}
+
+.div2b {
+    padding-left: 1rem;
+}
+
+.emaill {
+    border: 2px solid #414141;
+    width: 28rem;
+    height: 3rem;
+    background: transparent;
+    color: white;
+}
+
+.div3 {
+    color: white;
+    background-color: black;
+    padding-left: 100px;
+}
+
+.card-img-bottom {
+    width: 15rem;
+    height: 20px;
+    background-color: #1E1425;
+
+}
+
+.card-div {
+    color: white;
+    display: flex;
+    flex-direction: row !important;
+    margin-right: 50px;
+    gap: 20px;
+    color: white !important;
+}
+
+.bg {
+    background-color: black;
+    color: white;
+    padding-left: 100px;
+
+
+}
+
+.card {
+    border-radius: 10px;
+    margin-right: 10px;
+    border: none;
+    max-width: 500px;
+    display: inline;
+    background-color: #1E1425 !important;
+}
+
+.Accordion {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: black;
+}
+
+.accordion-item {
+    color: white !important;
+    background-color: #414141 !important;
+}
+
+.plus {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+div h2 button {
+    color: white !important;
+    background-color: #414141 !important;
+}
+
+.footer a {
+    color: #B3B3B3;
+    background-color: black;
+}
+
+.footer {
+    padding-left: 100px;
+    padding-right: 0px;
+    background-color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: none;
+    gap: 30px;
+}
+
+.grid-item {
+    column-gap: 100rem;
+}
+
+.Email {
+    padding-left: 100px;
+    background-color: black;
+}
+
+.carousel-inner img:hover {
+    transform: scale(1.15);
+}
+
+.welcome {
+    background-color: transparent;
+}
+
+.bot {
+    flex-wrap: wrap;
+    color: #B3B3B3;
+}
+
+.card-title {
+    color: white !important;
+}
+
+.start {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    height: 60px;
+    font-size: 1.1em;
+    font-weight: 550;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.lang {
+    color: white;
+    background-color: black;
+}
+
+.tongue select {
+    background-color: black;
+    color: white;
+    border: 1px solid #414141;
+    border-radius: 5px;
+}
+
+.tongue select:focus {
+    outline: none;
+    border-color: #fff;
+}
+.email{
+    background: transparent;
+    border: 1px solid #414141;
+    width: 28em;
+    height: 3em;
+}
+.email:focus{
+    border: 1px solid white;
+}
+
+.div2c{
+    padding-right:100px !important;
+}
+
+/*Responsiveness*/
+
+@media (max-width:480px) {
+    *{
+        padding-right: 0px;
+    }
+    .footer {
+        padding-left: 2rem;
+        column-gap: 5rem;
+    }
+
+    .Accordion {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+
+    .grid-container {
+        display: block;
+    }
+
+    .div3 {
+        padding-left: 2rem !important;
+        padding-right: 0;
+    }
+
+    .biggy {
+        font-size: 1.8rem;
+        padding-left: 1rem !important;
+        padding-right: 0px;
+        flex-wrap: wrap;
+    }
+
+    .sign-in {
+        position: absolute;
+        padding-top:.8em;
+        padding-left:.8em;
+        width: 5em;
+        height: 3em;
+        left:10rem;
+        margin-top: 1em;
+    }
+
+    .div1 {
+        width: .5rem !important;
+    }
+
+    .logo {
+        width: 6rem !important;
+    }
+
+    .bg {
+        padding: 2rem !important;
+    }
+
+    .card {
+        display: block !important;
+        flex-wrap: wrap;
+        min-width: 3.0rem;
+    }
+
+    .card-div {
+        flex-direction: column !important;
+    }
+
+    .div2a {
+        padding-left: 0px !important;
+        flex-wrap: wrap;
+        padding-right: 0px;
+    }
+
+    .div2b {
+        flex-wrap: wrap;
+        padding-right: 0px;
+    }
+
+    .div2c {
+        flex-wrap: wrap;
+        padding-right: 0px;
+    }
+
+    .Email {
+        padding-left: 2rem;
+        padding-right: 0%;
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .email {
+        display: block;
+        width: 10rem;
+        padding-right: 0px;
+    }
+
+    .div2 {
+        padding-left: 1rem;
+        padding-right: 0px;
+    }
+
+    .emaill {
+        width: 10rem;
+        padding-right: 0px;
+    }
+    .welcome{
+        width:100% ;
+    }
+    .trans{
+        width: 1rem !important;
+    }
+}
